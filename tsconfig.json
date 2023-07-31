@@ -10,6 +10,13 @@
     "sourceMap": true,
     "outDir": "./dist",
     "baseUrl": "./",
+    "paths": {
+      "@config/*": ["src/config/*"],
+      "@user/*": ["src/user/*"],
+      "@auth/*": ["src/auth/*"],
+      "@tokens": ["src/injection-tokens"],
+      "@common/*": ["src/common/*"]
+    },
     "incremental": true,
     "skipLibCheck": true,
     "strictNullChecks": false,
